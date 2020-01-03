@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Page </title>
+      <link rel="stylesheet" type="text/css" href="stylesheet/css/portfolio-css.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="JS/JavaScriptindex.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> <!-- We use a little bit of jQuery on this site now -->
+      
+    </head>
+
+<body id="main">
+
+    <div id="area-render"></div>
+   <!-- NAV BAR -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+      <a class="navbar-brand" href="#">Thomas Shetler</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+       
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Portfolio
+              <a class="dropdown-item" href="#">Python</a>
+              <a class="dropdown-item" href="#">Front End</a>
+              <a class="dropdown-item" href="#">SQL</a>
+              <a class="dropdown-item" href="#">C#/.NET</a>
+              <a class="dropdown-item" href="#">SQL</a>
+              <a class="dropdown-item" href="#">Java</a>
+            </div>
+          </li>    -->
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Coming Soon...</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <!-- NAVBAR END -->
+    <!-- Main Display page -->
+    <div class="row">
+          <!-- article and main display -->
+        <div class="col-8">
+
+          <h1 class="ml3">Thomas Shetler</h1>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+          <img src="stylesheet/css/IMG952939.jpg" class="rounded mx-auto d-block" alt="..." id="me"  width="500" margin="10px"padding="20px">
+        <article >
+          
+          
+          <p><strong>ABOUT ME:</strong></p>
+          
+          
+          <p>Hello, I offer you positivity, Immense energy, and my abilities to quickly learn</p> 
+
+        </article>
+        </div>
+        <div class="col-4 id="projects">
+          <!-- Side bar and side display -->
+                <div class="text-center">
+                  <!-- this is the projects title -->
+                   <h1 id=title> PROJECTS 
+          
+                </div>
+                <div class="text-center" class="item">
+                  <!-- This is the C sharp and .NET thumbNail   -->
+                  <a href = "#" class = "column col-xs-6" id = "caption"><span class = "text"><h1>C# & .NET</h1></span>
+                        <img class="item" src="stylesheet/css/images/C_Sharp_and_Dot_NET.png"  class="img-thumbnail" alt="..." height="200" width="300" margin="10px"padding="20px">
+                </div>
+                <div class="text-center" id="image2" class="item">
+                  <!-- this is the python thumbnail -->
+                  <a href = "https://github.com/ThomasShetler/Directory_Creator_GUI" class = "column col-xs-6" id = "caption"><span class = "text"><h1>Python</h1></span>
+                        <img  class="item" src="stylesheet/css/images/Python.png"  class="img-thumbnail" alt="..." height="200" width="300" margin="10px"padding="20px">
+                </div>
+                 <!-- This is the github Thumbnail -->
+                <div class="text-center" id="image3" class="item">
+                    <a href = "https://github.com/ThomasShetler" class = "column col-xs-6" id = "caption"><span class = "text"><h1>GitHub</h1></span>
+                        <img class="item" src="stylesheet/css/images/GitHub.png"  class="img-thumbnail" alt="..."height="200" width="300" margin="10px"padding="20px">
+                </div>
+                <!--  This is the SQL Thumbnail -->
+                <div class="text-center" id="image4" class="item">
+                    <a href = "#" class = "column col-xs-6" id = "caption"><span class = "text"><h1>SQL</h1></span>
+                        <img class="item" src="stylesheet/css/images/SQL_and_Database.jpg"  class="img-thumbnail" alt="..." height="200" width="300" margin="10px"padding="20px">
+                </div>
+                <div class="text-center" id="image5" class="item">
+                  	<a href = "https://github.com/ThomasShetler/Portfoilo-Website" class = "column col-xs-6" id = "caption"><span class = "text"><h1>Web</h1></span>
+                  <!-- this is The web Developement Thumbnail -->
+                        <img class="item" src="stylesheet/css/images/HTML_CSS_and_JavaScript.jpeg"  class="img-thumbnail" alt="..." height="200" width="300" margin="10px" padding="20px">
+                </div>
+                <div class="text-center" id="image6" class="item">
+                  	<a href = "https://github.com/ThomasShetler/SQL-data-row-generator" class = "column col-xs-6" id = "caption"><span class = "text"><h1>Java</h1></span>
+                  <!-- this is Java Thumbnail -->
+                        <img class="item" src="stylesheet/css/images/java_jar-on-windows-10 (1).png"  class="img-thumbnail" alt="..." height="200" width="300" margin="10px" padding="20px">
+                </div>
+      
+        </div>
+    <!-- JAVASCRIPT -->
+    <script src="JS/JavaScript-index.js"></script>
+    <!-- Particle effect -->
+    <script type="text/javascript" color="255,255,255" opacity='0.7' zIndex="-2" count="300" src="dist/canvas-nest.js"></script>
+    <script src="dist/canvas-nest.js"></script>
+    <!-- JAVASCRIPT END -->
+  </body>
+</html>
